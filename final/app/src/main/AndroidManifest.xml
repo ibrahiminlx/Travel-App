@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.afinal">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final"
+        tools:targetApi="31">
+        <activity
+            android:name=".favoriler"
+            android:exported="false" />
+        <activity
+            android:name=".detay3"
+            android:exported="false" />
+        <activity
+            android:name=".Degerlendirme"
+            android:exported="false" />
+        <activity
+            android:name=".detay"
+            android:exported="false" />
+        <activity
+            android:name=".kayitol"
+            android:exported="false" />
+        <activity
+            android:name=".tarihiyerler"
+            android:exported="false" />
+        <activity
+            android:name=".otopark"
+            android:exported="false" />
+        <activity
+            android:name=".market"
+            android:exported="false" />
+        <activity
+            android:name=".ibadet"
+            android:exported="false" />
+        <activity
+            android:name=".kutuphane"
+            android:exported="false" />
+        <activity
+            android:name=".park"
+            android:exported="false" />
+        <activity
+            android:name=".otel"
+            android:exported="false" />
+        <activity
+            android:name=".Anasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".anasayfa2"
+            android:exported="false"
+            android:label="@string/title_activity_anasayfa2"
+            android:theme="@style/Theme.Final.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

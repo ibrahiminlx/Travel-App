@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#63CABA"
+    android:padding="2dp"
+    android:orientation="horizontal">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="404dp"
+        android:layout_height="512dp"
+        app:cardBackgroundColor="#FFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="394dp"
+            android:layout_height="504dp"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="-38dp"
+                tools:layout_editor_absoluteY="252dp">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imgProfilePhoto2"
+                android:layout_width="400dp"
+                android:layout_height="502dp"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:id="@+id/txtsaat2"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="Codemy ile Android öğreniyorum"
+                android:shadowColor="@color/black"
+                android:shadowRadius="5"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"
+
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgProfilePhoto2"
+                app:layout_constraintTop_toTopOf="@+id/imgProfilePhoto2"
+                app:layout_constraintVertical_bias="0.818"
+                tools:layout_editor_absoluteX="-1dp" />
+
+            <TextView
+                android:id="@+id/txtucret2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="neainbabe@gmail.com"
+                android:shadowColor="@color/black"
+                android:shadowRadius="5"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgProfilePhoto2"
+                app:layout_constraintTop_toTopOf="@+id/imgProfilePhoto2"
+                app:layout_constraintVertical_bias="0.762"
+                tools:layout_editor_absoluteX="-1dp" />
+
+            <TextView
+                android:id="@+id/txtisim2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="neinbabe"
+                android:shadowColor="@color/black"
+                android:shadowRadius="5"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgProfilePhoto2"
+                app:layout_constraintTop_toTopOf="@+id/imgProfilePhoto2"
+                app:layout_constraintVertical_bias="0.693"
+                tools:layout_editor_absoluteX="-1dp" />
+
+            <TextView
+                android:id="@+id/txtpuan"
+                android:layout_width="152dp"
+                android:layout_height="42dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:text="Puan"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgProfilePhoto2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imgProfilePhoto2"
+                app:layout_constraintVertical_bias="0.032" />
+
+            <Button
+                android:id="@+id/btndetay"
+                android:layout_width="113dp"
+                android:layout_height="50dp"
+                android:text="Detay"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.943"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.964" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
